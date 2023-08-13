@@ -1,0 +1,118 @@
+@media (max-width:991px) {
+    .divide {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .section {
+        min-width: 100vh;
+    }
+
+    .title-about {
+        margin: 0px;
+        font-size: 2em;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .gap {
+        gap: 20px;
+    }
+
+    img {
+        transform: scale(0.7);
+    }
+    .services-section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 1em;
+        text-align: center;
+        width: 100%;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    .contact-location div h1,
+    .contact-location div p {
+        text-align: start;
+    }
+
+    .skill-progress {
+        width: 100%;
+    }
+
+    .max-width {
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+    }
+
+    button {
+        display: block;
+        margin: auto;
+    }
+
+    a {
+        display: block;
+        margin: auto;
+    }
+
+    .main-text {
+        margin: 0;
+    }
+    .card
+    {
+        min-height: 200px;
+    }
+    .nav-links {
+        padding: 30px;
+        height: 100vh;
+        width: 200px;
+        position: absolute;
+        top: 0;
+        right: 0px;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .nav-bar .fa-xmark {
+        display: block;
+        font-size: 2rem;
+    }
+
+    .nav-bar .fa-bars {
+        display: block;
+    }
+    .nav-links ul li{
+        display: block;
+        margin: 20px;
+    }
+    .nav-links ul li a{
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {}
+
+@media (max-width:479px) {}
