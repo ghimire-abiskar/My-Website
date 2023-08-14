@@ -14,7 +14,13 @@
         margin: 0px;
         font-size: 2em;
     }
-
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items:normal;
+        gap: 0px;
+    }
     .text-center {
         text-align: center;
     }
@@ -45,7 +51,6 @@
         text-align: center;
         width: 100%;
     }
-
     p {
         font-size: 0.8em;
     }
@@ -115,4 +120,9 @@
 
 @media (max-width:768px) {}
 
-@media (max-width:479px) {}
+@media (max-width:479px) {
+    input{
+        display: block;
+        margin: 3px;
+    }
+}
