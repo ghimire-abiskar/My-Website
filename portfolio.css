@@ -13,6 +13,9 @@
 .rightsection img {
     transform: scale(0.6);
 }
+.rightsection img {
+    transform: scale(0.6);
+}
 
 #about {
     margin-top: 10px;
