@@ -13,8 +13,8 @@
     }
 
     .title-about {
-        margin: 0px;
         font-size: 2em;
+        margin: 0px;
     }
     .form{
         display: flex;
