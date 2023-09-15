@@ -4,10 +4,9 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
+
     }
-    body{
-        overflow-x: hidden;
-    }
+
     .section {
         max-height: 100vh;
     }
@@ -16,13 +15,38 @@
         font-size: 2em;
         margin: 0px;
     }
-    .form{
+
+    .profile img {
+        max-width: 100%;
+    }
+
+    .line::before {
+        content: "";
+        max-width: 80px;
+        height: 2px;
+        background-color: rgb(12, 129, 240);
+        position: absolute;
+        top: 55%;
+        transform: translateX(-100%);
+    }
+
+    .line::after {
+        content: "";
+        max-width: 80px;
+        height: 2px;
+        background-color: rgb(12, 129, 240);
+        position: absolute;
+        top: 55%;
+    }
+
+    .form {
         display: flex;
         flex-direction: column;
         width: 100%;
-        align-items:normal;
+        align-items: normal;
         gap: 0px;
     }
+
     .text-center {
         text-align: center;
     }
@@ -34,13 +58,14 @@
     img {
         transform: scale(0.7);
     }
-    .services-section
-    {
+
+    .services-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         gap: 50px;
     }
+
     section {
         display: flex;
         flex-direction: column;
@@ -53,6 +78,7 @@
         text-align: center;
         width: 100%;
     }
+
     p {
         font-size: 0.8em;
     }
@@ -68,8 +94,6 @@
 
     .max-width {
         max-width: 100%;
-        border: 2px solid grey;
-        /* width: 1390px; */
         padding: 20px 20px 20px 20px;
     }
 
@@ -86,10 +110,11 @@
     .main-text {
         margin: 0;
     }
-    .card
-    {
+
+    .card {
         min-height: 200px;
     }
+
     .nav-links {
         padding: 30px;
         height: 100vh;
@@ -104,31 +129,36 @@
         z-index: 2;
         transition: 1s;
     }
+
     .rightsection img {
-        transform: scale(0.4);
-        border: 2px solid red;
+        max-width: 100%;
     }
-    
+
     .nav-bar .fa-xmark {
         display: block;
         font-size: 2rem;
     }
-    .nav-bar .fa-xmark:hover{
+
+    .nav-bar .fa-xmark:hover {
         cursor: pointer;
         color: blue;
     }
-    .nav-bar .fa-bars:hover{
+
+    .nav-bar .fa-bars:hover {
         color: blue;
         cursor: pointer;
     }
+
     .nav-bar .fa-bars {
         display: block;
     }
-    .nav-links ul li{
+
+    .nav-links ul li {
         display: block;
         margin: 20px;
     }
-    .nav-links ul li a{
+
+    .nav-links ul li a {
         text-align: center;
     }
 }
@@ -136,7 +166,7 @@
 @media (max-width:768px) {}
 
 @media (max-width:479px) {
-    input{
+    input {
         display: block;
         margin: 3px;
     }

@@ -12,13 +12,20 @@ window.onscroll=()=>{
 }
 function show_menu()
 {
-    let nav= document.getElementsByClassName("nav-links")[0];
-    nav.style.display="flex";
+    let nav= document.getElementById("menu");
+    menu.style.display="flex";
+    menu.style.right="0";
+}
+function hide_menu()
+{
+    let nav= document.getElementById("menu");
+    menu.style.display="none";
+    // menu.style.right="-200px";    
 }
 function hide_menu()
 {
     let nav= document.getElementsByClassName("nav-links")[0];
-    nav.style.display="none";
+    nav.remove("active");
 }
 function handleMenuDisplay() {
     const nav = document.getElementsByClassName("nav-links")[0];
