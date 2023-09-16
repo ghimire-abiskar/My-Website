@@ -12,20 +12,17 @@ window.onscroll=()=>{
 }
 function show_menu()
 {
-    let nav= document.getElementById("menu");
+    let menu= document.getElementsByClassName("nav-links")[0];
     menu.style.display="flex";
-    menu.style.right="0";
+    menu.style.right="0px";
+    console.log("hi")
 }
 function hide_menu()
 {
-    let nav= document.getElementById("menu");
-    menu.style.display="none";
-    // menu.style.right="-200px";    
-}
-function hide_menu()
-{
-    let nav= document.getElementsByClassName("nav-links")[0];
-    nav.remove("active");
+    let menu= document.getElementsByClassName("nav-links")[0];
+    // menu.style.display="none";
+    menu.style.right="-200px";
+    // menu.style.display="-200px"; 
 }
 function handleMenuDisplay() {
     const nav = document.getElementsByClassName("nav-links")[0];
